@@ -1,2 +1,2 @@
 # Velocity-CommandLimiter
-他のpluginで制限できないコマンド等を通常プレイヤーに表示させなくさせるplugin
+プロキシやプロキシ下にある全てのコマンドを操作して表示と実行を制御するplugin

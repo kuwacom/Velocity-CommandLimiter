@@ -1,0 +1,50 @@
+# Gradle
+.gradle/
+build/
+
+# Local configuration file (for IntelliJ IDEA, Eclipse, etc.)
+**/out/
+**/build/
+**/.idea/
+**/.classpath
+**/.project
+**/.settings/
+**/.vscode/
+*.iml
+
+# Cache
+**/tmp/
+**/logs/
+**/node_modules/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# JetBrains IDEs
+.idea/
+*.iws
+*.ipr
+
+# Other IDEs
+*.log
+*.swp
+*.swo
+
+# Generated files
+*.jar
+*.war
+*.ear
+*.class
+
+# Lombok
+**/.lombok/
+
+# Environment-specific
+.env
+.env.*
+
+# Logs
+*.log
+logs/

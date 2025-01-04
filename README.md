@@ -1,0 +1,2 @@
+# Velocity-CommandLimiter
+他のpluginで制限できないコマンド等を通常プレイヤーに表示させなくさせるplugin

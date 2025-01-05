@@ -4,6 +4,7 @@ import dev.kuwa.commandLimiter.models.Permissions
 
 data class PluginConfig(
     var allAllowed: String = "admin",
+    var limitNoPermissionsPlayer: Boolean = true,
     var permissions: Array<Permissions> = arrayOf(Permissions(
             "default",
             true,

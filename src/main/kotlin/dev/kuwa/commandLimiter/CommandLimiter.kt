@@ -27,8 +27,8 @@ class CommandLimiter @Inject constructor(
     val commandPermissionNodeName = "commandlimiter"
     private lateinit var proxyServer: ProxyServer
 
-    private lateinit var configManager: ConfigManager
-    private lateinit var config: PluginConfig
+    lateinit var configManager: ConfigManager
+    lateinit var config: PluginConfig
 
     @Inject
     fun protocolChanger(proxyServer: ProxyServer) {

@@ -33,7 +33,8 @@ nodeName = "default"
 whiteList = true
 # ホワイトリストの場合は、以下に記述したコマンドのみ表示と実行が可能になる
 # ブラックリストの場合は記述したコマンドのみ制限される
-commands = ["help", "list", "me", "msg", "teammsg", "tell", "tm", "trigger", "w", "random"]
+# サブコマンドを含むコマンドの場合、ワイルドカードや正規表現でフィルタ可能
+commands = ["help", "list", "me*", "msg*", "teammsg*", "tell*", "tm*", "trigger*", "w*", "random*"]
 ```
 
 ### Permission Node

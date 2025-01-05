@@ -11,7 +11,7 @@ data class PluginConfig(
             // Minecraft OPlevel 0 default commands
             // https://minecraft.fandom.com/wiki/Commands
             arrayOf(
-                "help", "list", "me", "msg", "teammsg", "tell", "tm", "trigger", "w", "random"
+                "help", "list", "me*", "msg*", "teammsg*", "tell*", "tm*", "trigger", "w*", "random*"
             )
         )
     )

@@ -17,7 +17,7 @@ import java.nio.file.Path
     id = "command-limiter",
     name = "CommandLimiter",
     version = BuildConstants.VERSION,
-    description = "他のpluginで制限できないコマンドを通常プレイヤーに表示と実行をさせなくさせるplugin",
+    description = "プロキシやプロキシ下にある全てのコマンドを操作して表示と実行を制御する強力なPlugin",
     authors = ["kuwa"]
 )
 class CommandLimiter @Inject constructor(
